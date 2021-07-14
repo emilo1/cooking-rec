@@ -4,7 +4,27 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-Flask = "==1.0.2"
+Flask = "==1.1.2"
+gunicorn = "*"
+pandas = "*"
+flask-pymongo = "*"
+bson = "*"
+flask-cors = "*"
+dnspython = "*"
+certifi = "*"
+click = "*"
+flask-sqlalchemy = "*"
+greenlet = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+psycopg2-binary = "*"
+pymongo = "*"
+sqlalchemy = "*"
+werkzeug = "*"
+python-dotenv = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
